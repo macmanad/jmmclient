@@ -272,7 +272,7 @@ namespace JMMClient.UserControls
 				MainWindow mainwdw = (MainWindow)Window.GetWindow(this);
 
 				if (MainWindow.CurrentMainTabIndex == MainWindow.TAB_MAIN_Dashboard && mainwdw.dash.Visibility == System.Windows.Visibility.Visible)
-					RefreshData(true, false, false);
+					RefreshData(true, true, false);
 			}
 			catch { }
 		}
